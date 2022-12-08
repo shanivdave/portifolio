@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Pos Portfolio Project</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="fa fa-print"></i>
+                    Pos
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link">How it Works</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Feature</a>
+                        </li>
+
+                        <a href="#" class="button button--ghost">Login</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='fa fa-times'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='fa fa-bars'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- HOME SLIDER 1 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home1-img.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Sarah/Newton</h4>
+                                        <span class="home__details-subtitle">The Point of Sale</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">Make your Business Easy</h3>
+                                    <h1 class="home__title">Easily track <br> Easily Managing Your<br> Business Stuff</h1>
+                                    <p class="home__description">Help user to manage their business through point of sale business, cut traditional method to get more accurate data sale.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="#" class="button">Request Now</a>
+                                        <a href="#" class="button--link button--flex">Track Record <i class='fa fa-arrow-right button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        
+            </section>
+            
+
+            <!--==================== ABOUT ====================-->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">About Point Of<br> Sale</h2>
+                        <p class="about__description">A POS system is software package that is frequently packaged with an accompanying compatible hardware package used to organize and operate your business. The software links your customer service, inventory, accounting, payroll and other departments within one program, which helps centralize your administrative tasks. Using a POS is tremendously time-saving and efficient compared with the alternative of using separate software to manage each area.
+
+                        It can also improve the customer experience with efficient sales programming, reduce waste with automated inventory reconciliation and expiration and ordering alerts, and prevent theft.
+                        </p>
+                        <a href="#" class="button">Know more</a>
+                    </div>
+
+                    <img src="assets/img/about-img.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--==================== TRICK OR TREAT ====================-->
+            <section class="section trick" id="trick">
+                <h2 class="section__title">How It's Works</h2>
+
+                    <div class="trick__content" style=" padding-left: 9rem; ">
+                        <img src="assets/img/Works.jpg" alt="" class="trick__img"  style=" height: 350px; width: 60rem; border-radius: 50px; ">
+                    </div>
+            </section>
+            
+            <!--==================== DISCOUNT ====================-->
+            <section class="section discount">
+                <div class="discount__container container grid">
+                    <div class="discount__data">
+                        <h2 class="discount__title">50% Discount <br> On Pos</h2>
+                        <a href="#" class="button">Go to new</a>
+                    </div>
+
+                    <img src="assets/img/discount-img.png" alt="" class="discount__img" style=" height: 40%;">
+                </div>
+            </section>
+
+            <!--==================== NEW ARRIVALS ====================-->
+            <section class="section new" id="new">
+                <h2 class="section__title">Features</h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">2</div>
+                                <i class="fa fa-database" id="new__img"></i>
+                                <h3 class="new__title">Managing inventories</h3>
+                                <span class="new__subtitle">Automates stock control and helps retailers determine optimal quantities of top-selling products and when to reorder them.</span>
+                                
+
+                                <button class="button new__button">
+                                    <i class='fa fa-shopping-cart new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">3</div>
+                                <i class="fa fa-file" id="new__img"></i>
+                                <h3 class="new__title">Improve efficiency</h3>
+                                <span class="new__subtitle">POS systems allow shop owners, operators, and managers to spend more time training their employees and interacting with customers due to their operational efficiencies and automation.</span>
+        
+
+                                <button class="button new__button">
+                                    <i class='fa fa-shopping-cart new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">1</div>
+                                <i class="fa fa-laptop" id="new__img"></i>
+                                <h3 class="new__title">Analyzing and reporting sales</h3>
+                                <span class="new__subtitle">Giving retailers insight into their sales, enabling them to make informed decisions that strengthen their business.</span>
+        
+
+                                <button class="button new__button">
+                                    <i class='fa fa-shopping-cart new__icon'></i>
+                                </button>
+                            </div>
+        
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== OUR NEWSLETTER ====================-->
+            <section class="section newsletter">
+                <div class="newsletter__container container">
+                    <h2 class="section__title">Our Newsletter</h2>
+                    <p class="newsletter__description">
+                        Promotion new products and sales. Directly to your inbox
+                    </p>
+
+                    <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <i class="fa fa-print"></i>
+                            Pos
+                        </a>
+
+                        <p class="footer__description">Enjoy the Pos<br> for your business.</p>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class='fa fa-facebook'></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class='fa fa-instagram' ></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                                <i class='fa fa-twitter' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">About</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">How it Works</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Services</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Discounts</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Company</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <span class="footer__copy">&#169; Sarah/Newton. All rigths reserved</span>
+
+                <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
+                <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
+            </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='fa fa-arrow-up scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
